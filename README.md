@@ -1,16 +1,16 @@
-# 🗨️ Chat Bidireccional con Python, Sockets y Tkinter
+# Chat Bidireccional con Python, Sockets y Tkinter
 
 Este repositorio contiene un **chat bidireccional local** usando:
-- Python 🐍  
-- Sockets TCP 🔌  
-- Threads 🧵  
-- Tkinter 🪟  
+- Python   
+- Sockets TCP   
+- Threads 
+- Tkinter   
 
 Permite que varios clientes en la misma máquina se conecten a un servidor y chateen en tiempo real.
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 chat_project/
@@ -20,7 +20,7 @@ chat_project/
 
 ---
 
-## 🚀 Cómo usarlo
+## Cómo usarlo
 
 ### 1. Ejecutar el servidor:
 ```
@@ -36,14 +36,14 @@ Cada cliente abre una ventana independiente y todos reciben los mensajes enviado
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Python 3.10+
 - Tkinter (ya incluido en Windows)
 
 ---
 
-## 🧠 Funcionamiento Interno
+## Funcionamiento Interno
 
 ### Servidor
 - Acepta múltiples conexiones.
@@ -55,17 +55,3 @@ Cada cliente abre una ventana independiente y todos reciben los mensajes enviado
 - Un hilo escucha mensajes sin bloquear la ventana.
 - Permite enviar mensajes instantáneamente.
 
----
-
-## ✨ Mejoras sugeridas
-
-- Nicks personalizados  
-- Mostrar usuarios conectados  
-- Guardar historial del chat  
-- Encriptar mensajes
-
----
-
-## 📜 Licencia
-
-Uso completamente libre con fines educativos.
